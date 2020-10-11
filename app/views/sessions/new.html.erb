@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <div class="text-center row">
+    <div class="col-3 mx-auto">
+      <p id=”alert”><%= alert %></p>
+      <h1 class="h2 mb-3 font-weight-normal">Login</h1>
+      <%= form_tag(sessions_path, { class: 'form-group'}) do |form| %>
+        <div class=”field”>
+          <%= label_tag :email %>
+          <%= text_field_tag :email, "", class: 'form-control' %>
+        </div>
+        <div class=”field”>
+          <%= label_tag :password %>
+          <%= password_field_tag :password, "", class: 'form-control' %>
+        </div>
+        <div class=”actions”>
+          <%= submit_tag 'Login', :class => 'btn btn-primary my-3' %>
+        </div>
+         <%= link_to 'Back', home_path %>
+      <% end %>
+    </div>
+  </div>
+</div>

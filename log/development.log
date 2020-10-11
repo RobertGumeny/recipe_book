@@ -1,0 +1,867 @@
+Started GET "/" for ::1 at 2020-10-10 15:42:37 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (17.0ms)
+Completed 200 OK in 2615ms (Views: 97.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 15:44:38 -0600
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1078ms (Views: 1031.5ms)
+
+
+Started POST "/auth/auth0" for ::1 at 2020-10-10 15:44:55 -0600
+Started POST "/auth/auth0" for ::1 at 2020-10-10 15:46:56 -0600
+Started POST "/auth/auth0" for ::1 at 2020-10-10 15:47:43 -0600
+Started POST "/auth/auth0" for ::1 at 2020-10-10 15:48:37 -0600
+Started GET "/" for ::1 at 2020-10-10 15:51:07 -0600
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 842ms (Views: 350.2ms)
+
+
+Started POST "/auth/auth0" for ::1 at 2020-10-10 15:51:21 -0600
+Started POST "/auth/auth0" for ::1 at 2020-10-10 15:52:00 -0600
+Started GET "/" for ::1 at 2020-10-10 15:53:12 -0600
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 887ms (Views: 363.8ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 15:53:24 -0600
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 124ms (Views: 103.6ms)
+
+
+Started POST "/auth/auth0" for ::1 at 2020-10-10 15:53:27 -0600
+Started GET "/" for ::1 at 2020-10-10 16:22:06 -0600
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.7) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-10-10 16:22:10 -0600
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.7) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1530.6ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) COLLATE utf8_general_ci NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (3633.3ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) COLLATE utf8_general_ci NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT GET_LOCK('6235563768613382070', 0)[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20201010215826)
+  [1m[35m (2717.6ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `username` varchar(255), `password_digest` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20201010215826')[0m
+  [1m[35m (170.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (290.8ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-10-10 22:23:09', '2020-10-10 22:23:09')[0m
+  [1m[35m (521.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('6235563768613382070')[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for ::1 at 2020-10-10 16:23:41 -0600
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 123ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 16:24:49 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  Rendered sessions/welcome.html.erb within layouts/application (34.0ms)
+Completed 500 Internal Server Error in 144ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/recipe_book/app/views/sessions/welcome.html.erb:11: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Sites/recipe_book/app/views/sessions/welcome.html.erb:13: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/sessions/welcome.html.erb:11: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/sessions/welcome.html.erb:13: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for ::1 at 2020-10-10 16:26:00 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  Rendered sessions/welcome.html.erb within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/recipe_book/app/models/user.rb:6: syntax error, unexpected ':', expecting keyword_end
+    length: { minimum: 5, maximum: 20 }
+           ^
+C:/Sites/recipe_book/app/models/user.rb:9: syntax error, unexpected ':', expecting keyword_end
+    length: { minimum: 6, maximum: 12}
+           ^):
+  
+app/models/user.rb:6: syntax error, unexpected ':', expecting keyword_end
+app/models/user.rb:9: syntax error, unexpected ':', expecting keyword_end
+app/controllers/application_controller.rb:8:in `current_user'
+app/controllers/application_controller.rb:12:in `logged_in?'
+app/views/sessions/welcome.html.erb:3:in `_app_views_sessions_welcome_html_erb___833241781_34296552'
+Started GET "/" for ::1 at 2020-10-10 16:26:42 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  Rendered sessions/welcome.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/recipe_book/app/models/user.rb:6: syntax error, unexpected ':', expecting keyword_end
+    length: { minimum: 5 }
+           ^
+C:/Sites/recipe_book/app/models/user.rb:9: syntax error, unexpected ':', expecting keyword_end
+    length: { minimum: 6 }
+           ^):
+  
+app/models/user.rb:6: syntax error, unexpected ':', expecting keyword_end
+app/models/user.rb:9: syntax error, unexpected ':', expecting keyword_end
+app/controllers/application_controller.rb:8:in `current_user'
+app/controllers/application_controller.rb:12:in `logged_in?'
+app/views/sessions/welcome.html.erb:3:in `_app_views_sessions_welcome_html_erb___833241781_80383176'
+Started GET "/" for ::1 at 2020-10-10 16:32:06 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (293.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (352.3ms)
+Completed 200 OK in 2153ms (Views: 1795.4ms | ActiveRecord: 333.3ms)
+
+
+Started GET "/users/new" for ::1 at 2020-10-10 16:32:16 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 163ms (Views: 132.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 16:32:20 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (24.0ms)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Sign Up</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4: 
+    5:   <%= f.label :username %><br>
+    6: 
+  
+app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___515561622_75074868'
+Started GET "/users/new" for ::1 at 2020-10-10 16:33:50 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 158ms (Views: 129.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-10-10 16:34:29 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (284.0ms)
+Completed 200 OK in 436ms (Views: 407.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-10-10 16:34:45 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 152ms (Views: 128.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-10-10 16:34:55 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rG3Mv/UvR4jlkROAb+BaI0a8VGeDDx8csLOSqS+c0t7pewHnrY2nXACtdXW7iLsHOfIdpY3+JUQYXqDBiQ2dDA==", "user"=>{"username"=>"RobertGumeny", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO `users` (`username`, `password_digest`, `created_at`, `updated_at`) VALUES ('RobertGumeny', '$2a$12$SkRcRrPLJOj9HDkEDmnV/OoHx950NWyPnsV9pSS6BibqpDe3Q.luO', '2020-10-10 22:34:55', '2020-10-10 22:34:55')[0m
+  [1m[35m (461.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/welcome
+Completed 302 Found in 742ms (ActiveRecord: 462.4ms)
+
+
+Started GET "/welcome" for ::1 at 2020-10-10 16:34:55 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered sessions/welcome.html.erb within layouts/application (81.9ms)
+Completed 200 OK in 230ms (Views: 200.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/authorized" for ::1 at 2020-10-10 16:42:53 -0600
+Processing by SessionsController#page_requires_login as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendering sessions/page_requires_login.html.erb within layouts/application
+  Rendered sessions/page_requires_login.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 216ms (Views: 126.2ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 16:46:41 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 160ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-10-10 16:46:51 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOPcwTG0qLMVue4JcqfYkiPmmIV8Nfi7rOHIMYWZoHcl9RGZaRZIZ/CFiPymzzm2XKjRR3LEwuMEDPpZIwjvpQ==", "username"=>"RobertGumeny", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'RobertGumeny' LIMIT 1[0m
+Completed 500 Internal Server Error in 468ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `sessions' for #<SessionsController:0xb6eaaf0>
+Did you mean?  session):
+  
+app/controllers/sessions_controller.rb:14:in `create'
+Started POST "/login" for ::1 at 2020-10-10 16:48:00 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOPcwTG0qLMVue4JcqfYkiPmmIV8Nfi7rOHIMYWZoHcl9RGZaRZIZ/CFiPymzzm2XKjRR3LEwuMEDPpZIwjvpQ==", "username"=>"RobertGumeny", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'RobertGumeny' LIMIT 1[0m
+Completed 500 Internal Server Error in 686ms (ActiveRecord: 247.4ms)
+
+
+  
+NameError (undefined local variable or method `sessions' for #<SessionsController:0xb36b890>
+Did you mean?  session):
+  
+app/controllers/sessions_controller.rb:14:in `create'
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (3690.3ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) COLLATE utf8_general_ci NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (2640.5ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) COLLATE utf8_general_ci NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('6235563768613382070', 0)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20201010225953)
+  [1m[35m (2012.0ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `email` varchar(255), `password_digest` varchar(255), `first_name` varchar(255), `last_name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (284.2ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20201010225953')[0m
+  [1m[35m (16.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-10-10 23:02:12', '2020-10-10 23:02:12')[0m
+  [1m[35m (18.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('6235563768613382070')[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for ::1 at 2020-10-10 17:06:34 -0600
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1950ms (Views: 1909.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 17:06:48 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 174ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-10-10 17:07:02 -0600
+Processing by UsersController#new as HTML
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (37.1ms)
+  Rendered users/new.html.erb within layouts/application (62.1ms)
+Completed 200 OK in 311ms (Views: 195.7ms | ActiveRecord: 61.0ms)
+
+
+Started POST "/users" for ::1 at 2020-10-10 17:09:22 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUyxN/AWCrZBv6R1vBFQ84E9+gIaKu/jC96Vfe06Z8HAWnxvqLTqYqSDwoBoebHX/nOzwBTb1bujM6cVS6soEw==", "user"=>{"email"=>"robertgumeny7@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "first_name"=>"Robert", "last_name"=>"Gumeny"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'robertgumeny7@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (165.1ms)[0m  [1m[32mINSERT INTO `users` (`email`, `password_digest`, `first_name`, `last_name`, `created_at`, `updated_at`) VALUES ('robertgumeny7@gmail.com', '$2a$12$rWnxHLJYxZDVXIfCMO9z0uBypshjpVfi1K/lNzarB7GHFzHkwYovO', 'Robert', 'Gumeny', '2020-10-10 23:09:22', '2020-10-10 23:09:22')[0m
+  [1m[35m (284.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 832ms (ActiveRecord: 449.1ms)
+
+
+Started GET "/users/1" for ::1 at 2020-10-10 17:09:23 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 157ms (Views: 121.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-10-10 17:09:27 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 147ms (Views: 123.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-10-10 17:09:33 -0600
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/edit.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 177ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-10-10 17:09:38 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 145ms (Views: 121.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-10-10 17:09:40 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 162ms (Views: 134.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-10-10 17:09:55 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"heYaN9mbmJcg24UUOKkz44sFUKTlByj6NeHpcc554cdFphrDhwSiH3XXuGLlnl2nNSktlsbG/W7c1+liF3OCVw==", "user"=>{"email"=>"bdaniels@bdco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "first_name"=>"Beave", "last_name"=>"Daniels"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'bdaniels@bdco.com' LIMIT 1[0m
+  [1m[35mSQL (57.0ms)[0m  [1m[32mINSERT INTO `users` (`email`, `password_digest`, `first_name`, `last_name`, `created_at`, `updated_at`) VALUES ('bdaniels@bdco.com', '$2a$12$e/fzkIHC0ZajVnwYV3lYMeKZEL6lOdAnsc5uJf8RsAhjAJErKImpe', 'Beave', 'Daniels', '2020-10-10 23:09:56', '2020-10-10 23:09:56')[0m
+  [1m[35m (276.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 630ms (ActiveRecord: 333.1ms)
+
+
+Started GET "/users/2" for ::1 at 2020-10-10 17:09:56 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 143ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-10-10 17:10:00 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 145ms (Views: 116.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 17:10:14 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 153ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-10-10 18:39:19 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 150ms (Views: 129.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-10-10 18:39:22 -0600
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/edit.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 166ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/users/2" for ::1 at 2020-10-10 18:39:39 -0600
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0AQUOk0U8inD1zuSPvi0n6zZKDXvbdYWloYbDXSYtaXfZNQNcyIvylujClnvqm2WJDjv6h/eXSmeqPo8MXpcmA==", "user"=>{"email"=>"bdaniels@bdco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "first_name"=>"Beave", "last_name"=>"Danielson"}, "commit"=>"Update User", "id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (199.1ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'bdaniels@bdco.com' AND (`users`.`id` != 2) LIMIT 1[0m
+  [1m[35mSQL (180.0ms)[0m  [1m[33mUPDATE `users` SET `last_name` = 'Danielson', `updated_at` = '2020-10-11 00:39:39' WHERE `users`.`id` = 2[0m
+  [1m[35m (495.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 884ms (ActiveRecord: 874.8ms)
+
+
+Started GET "/users/2" for ::1 at 2020-10-10 18:39:40 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 136ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-10-10 18:44:50 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 159ms (Views: 128.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1" for ::1 at 2020-10-10 18:44:52 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 129ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 18:51:11 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (88.0ms)
+Completed 500 Internal Server Error in 191ms (ActiveRecord: 40.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant Out”):
+    1: <% if current_user %>
+    2:   Logged in as <%= current_user.email %>.
+    3:   <%= link_to “Log Out”, logout_path %>
+    4: <% else %>
+    5:   <%= link_to “Sign Up”, signup_path %> or 
+    6:   <%= link_to “Log In”, login_path %>
+  
+app/views/home/index.html.erb:3:in `_app_views_home_index_html_erb___424457729_100556580'
+Started GET "/" for ::1 at 2020-10-10 18:52:17 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 693ms (Views: 651.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2020-10-10 18:52:30 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 18:52:30 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 157ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 18:52:32 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (304.0ms)
+Completed 500 Internal Server Error in 404ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `“Login”' for #<#<Class:0x9aa5c80>:0x9aa4ac8>):
+    10:     <%= password_field_tag :password %>
+    11:   </div>
+    12:   <div class=”actions”>
+    13:     <%= submit_tag “Login” %>
+    14:   </div>
+    15: <% end %>
+  
+app/views/sessions/new.html.erb:13:in `block in _app_views_sessions_new_html_erb__1048666346_81080772'
+app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb__1048666346_81080772'
+Started GET "/login" for ::1 at 2020-10-10 18:52:59 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 155ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-10-10 18:53:04 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 134ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 18:53:13 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 131ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 18:53:14 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 141ms (Views: 118.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for ::1 at 2020-10-10 18:53:23 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p2ycmMaLcSZdrJJ5AcAwlYzLXUz+UNCy+/edDLFNJ9n90Qx2VPNe/N5cNJJypoLbK0Zp4IEm3jSCDLEIwQO4Vw==", "email"=>"bdaniels@bdco.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'bdaniels@bdco.com' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 267ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 18:53:23 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 145ms (Views: 124.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 18:56:35 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 230ms (Views: 209.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/logout" for ::1 at 2020-10-10 18:59:00 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 18:59:00 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 148ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 18:59:02 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 134ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 18:59:04 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 139ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 18:59:42 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 165ms (Views: 130.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 18:59:50 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 170ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:01:34 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 176ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:01:54 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 152ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:02:32 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 145ms (Views: 124.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:03:21 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 170ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:04:12 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 181ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:04:21 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 161ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:09:07 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 225ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:10:17 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 172ms (Views: 129.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:10:32 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 185ms (Views: 146.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:11:46 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 185ms (Views: 139.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:11:55 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 184ms (Views: 142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 19:12:13 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 137ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:12:17 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 147ms (Views: 123.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:12:45 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 170ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:13:10 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 177ms (Views: 130.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:13:44 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 169ms (Views: 127.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:13:59 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 154ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:14:07 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 160ms (Views: 136.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-10-10 19:14:11 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 153ms (Views: 128.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-10-10 19:16:04 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 159ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 19:16:06 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 148ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-10-10 19:16:24 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 184ms (Views: 153.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-10-10 19:17:25 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (6.0ms)
+  Rendered users/new.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 185ms (Views: 154.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-10-10 19:18:45 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered users/new.html.erb within layouts/application (140.0ms)
+Completed 200 OK in 264ms (Views: 244.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-10-10 19:19:28 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 181ms (Views: 153.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-10-10 19:20:23 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 202ms (Views: 182.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-10-10 19:20:36 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (6.0ms)
+  Rendered users/new.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 212ms (Views: 191.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-10-10 19:20:59 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered users/new.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 219ms (Views: 197.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-10 19:21:05 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 146ms (Views: 123.3ms | ActiveRecord: 0.0ms)
+
+
